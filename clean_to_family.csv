@@ -1,0 +1,46 @@
+clean_name,virus_family
+HIV,Retroviridae
+HTLV-1,Retroviridae
+SARS-CoV-2,Coronaviridae
+SARS-CoV,Coronaviridae
+MERS-CoV,Coronaviridae
+Coronavirus,Coronaviridae
+HCV,Flaviviridae
+Dengue,Flaviviridae
+Zika,Flaviviridae
+WNV,Flaviviridae
+JEV,Flaviviridae
+Flavivirus (generic),Flaviviridae
+Influenza A,Orthomyxoviridae
+Influenza B,Orthomyxoviridae
+Enterovirus,Picornaviridae
+Poliovirus,Picornaviridae
+CHIKV,Togaviridae
+Sindbis,Togaviridae
+Alphavirus (generic),Togaviridae
+Rubella,Togaviridae
+Ebola,Filoviridae
+Marburg,Filoviridae
+VSV,Rhabdoviridae
+Rabies,Rhabdoviridae
+RSV,Paramyxoviridae
+Measles,Paramyxoviridae
+Lassa/Arena,Arenaviridae
+Hantavirus,Bunyavirales
+Norovirus,Caliciviridae
+Rotavirus,Reoviridae
+Reovirus,Reoviridae
+EBV,Herpesviridae
+HSV,Herpesviridae
+KSHV,Herpesviridae
+HCMV,Herpesviridae
+VZV,Herpesviridae
+HPV,Papillomaviridae
+HBV,Hepadnaviridae
+HEV,Hepeviridae
+HDV,Deltavirus
+Adenovirus,Adenoviridae
+AAV,Parvoviridae
+Polyomavirus,Polyomavirus
+Vaccinia,Poxviridae
+Monkeypox/Pox,Poxviridae

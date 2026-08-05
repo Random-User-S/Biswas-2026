@@ -1,0 +1,11 @@
+functional_class,regex_pattern
+Translation,\b(translation|translational|ribosome|polysome|translational initiation|translational elongation)\b
+RNA helicase,\b(RNA unwinding|duplex unwinding)\b
+RNA splicing,\b(splicing|spliceosome|splice site|exon|intron|alternative mRNA splicing|cis splicing)\b
+Stress granules,\b(stress granule|P-body|ribonucleoprotein granule|phase separation)\b
+RNA transport,\b(mRNA transport|RNA transport|mRNA export|RNA export|nucleocytoplasmic transport|intracellular mRNA localization|mRNA localization)\b
+RNA stability/decay,\b(stability|destabilization|decay|catabolic|degradation|deadenylation|turnover|nonsense-mediated decay|mRNA catabolic process)\b
+RNA modification,\b(RNA methylation|mRNA modification|RNA editing|pseudouridylation|demethylation)\b
+Innate immunity,\b(innate immune response|antiviral|defense response to virus|response to virus|type I interferon|interferon-alpha|interferon-beta|interferon production|interferon signaling)\b
+RNA processing,\b(mRNA processing|RNA processing|3'-end processing|cleavage and polyadenylation|polyadenylation|capping|maturation|splice site recognition)\b
+Gene regulation,\b(transcription|gene expression|chromatin|silencing|repression|regulation of transcription|regulation of gene expression)\b

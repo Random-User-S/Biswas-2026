@@ -1,0 +1,141 @@
+Rank,Query_RBP,Official_HGNC_Symbol,Full_Approved_Name
+1,TIA1,TIA1,TIA1 cytotoxic granule associated RNA binding protein
+2,FUS,FUS,FUS RNA binding protein
+3,G3BP1,G3BP1,G3BP stress granule assembly factor 1
+4,METTL3,METTL3,"methyltransferase 3, N6-adenosine-methyltransferase complex catalytic subunit"
+5,DDX3X,DDX3X,DEAD-box helicase 3 X-linked
+6,SF1,SF1,splicing factor 1
+7,EEF1A,METTL13,[Alias Match] Name not found
+8,PCBP2,PCBP2,poly(rC) binding protein 2
+9,EIF5A,EIF5A,eukaryotic translation initiation factor 5A
+10,FMR1,FMR1,fragile X messenger ribonucleoprotein 1
+11,NONO,NONO,non-POU domain containing octamer binding
+12,XPO1,XPO1,exportin 1
+13,HNRNPA1,HNRNPA1,heterogeneous nuclear ribonucleoprotein A1
+14,PABPC1,PABPC1,poly(A) binding protein cytoplasmic 1
+15,SRSF1,SRSF1,serine and arginine rich splicing factor 1
+16,PCBP1,PCBP1,poly(rC) binding protein 1
+17,HNRNPA2B1,HNRNPA2B1,heterogeneous nuclear ribonucleoprotein A2/B1
+18,ZFP36,ZFP36,ZFP36 zinc finger CCCH-type
+19,IGF2BP2,IGF2BP2,insulin like growth factor 2 mRNA binding protein 2
+20,SFPQ,SFPQ,splicing factor proline and glutamine rich
+21,HNRNPK,HNRNPK,heterogeneous nuclear ribonucleoprotein K
+22,YBX1,YBX1,Y-box binding protein 1
+23,UNK,UNK,unk zinc finger
+24,EWSR1,EWSR1,EWS RNA binding protein 1
+25,SRSF2,SRSF2,serine and arginine rich splicing factor 2
+26,IGF2BP1,IGF2BP1,insulin like growth factor 2 mRNA binding protein 1
+27,BOLL,BOLL,boule RNA binding protein
+28,IGF2BP3,IGF2BP3,insulin like growth factor 2 mRNA binding protein 3
+29,ELAVL1,ELAVL1,ELAV like RNA binding protein 1
+30,QKI,QKI,"QKI, KH domain containing RNA binding"
+31,MSI1,MSI1,musashi RNA binding protein 1
+32,SF3B1,SF3B1,splicing factor 3b subunit 1
+33,MBNL1,MBNL1,muscleblind like splicing regulator 1
+34,TARDBP,TARDBP,TAR DNA binding protein
+35,ILF2,ILF2,interleukin enhancer binding factor 2
+36,EIF4A1,EIF4A1,eukaryotic translation initiation factor 4A1
+37,LIN28A,LIN28A,lin-28 RNA binding posttranscriptional regulator A
+38,HNRNPU,HNRNPU,heterogeneous nuclear ribonucleoprotein U
+39,HNRNPC,HNRNPC,heterogeneous nuclear ribonucleoprotein C
+40,FXR1,FXR1,FMR1 autosomal homolog 1
+41,RBM3,RBM3,RNA binding motif protein 3
+42,MATR3,MATR3,matrin 3
+43,HNRNPH1,HNRNPH1,heterogeneous nuclear ribonucleoprotein H1
+44,EIF4G2,EIF4G2,eukaryotic translation initiation factor 4 gamma 2
+45,KHSRP,KHSRP,KH-type splicing regulatory protein
+46,PABPN1,PABPN1,poly(A) binding protein nuclear 1
+47,U2AF2,U2AF2,U2 small nuclear RNA auxiliary factor 2
+48,PUM1,PUM1,pumilio RNA binding family member 1
+49,FUBP1,FUBP1,far upstream element binding protein 1
+50,RBM24,RBM24,RNA binding motif protein 24
+51,PABPC4,PABPC4,poly(A) binding protein cytoplasmic 4
+52,RALY,RALY,RALY heterogeneous nuclear ribonucleoprotein
+53,SRSF10,SRSF10,serine and arginine rich splicing factor 10
+54,PUM2,PUM2,pumilio RNA binding family member 2
+55,PUF60,PUF60,poly(U) binding splicing factor 60
+56,SRSF5,SRSF5,serine and arginine rich splicing factor 5
+57,HNRNPM,HNRNPM,heterogeneous nuclear ribonucleoprotein M
+58,HNRNPD,HNRNPD,heterogeneous nuclear ribonucleoprotein D
+59,ELAVL4,ELAVL4,ELAV like RNA binding protein 4
+60,SRSF7,SRSF7,serine and arginine rich splicing factor 7
+61,RBFOX3,RBFOX3,RNA binding fox-1 homolog 3
+62,FUBP3,FUBP3,far upstream element binding protein 3
+63,RBM4,RBM4,RNA binding motif protein 4
+64,PRR3,PRR3,proline rich 3
+65,CPEB1,CPEB1,cytoplasmic polyadenylation element binding protein 1
+66,HNRNPF,HNRNPF,heterogeneous nuclear ribonucleoprotein F
+67,FXR2,FXR2,FMR1 autosomal homolog 2
+68,RBM5,RBM5,RNA binding motif protein 5
+69,CELF1,CELF1,CUGBP Elav-like family member 1
+70,HNRNPL,HNRNPL,heterogeneous nuclear ribonucleoprotein L
+71,NOVA1,NOVA1,NOVA alternative splicing regulator 1
+72,TAF15,TAF15,TATA-box binding protein associated factor 15
+73,RBFOX1,RBFOX1,RNA binding fox-1 homolog 1
+74,RBM38,RBM38,RNA binding motif protein 38
+75,SNRNP70,SNRNP70,small nuclear ribonucleoprotein U1 subunit 70
+76,RC3H1,RC3H1,ring finger and CCCH-type domains 1
+77,RBM15B,RBM15B,RNA binding motif protein 15B
+78,SRSF4,SRSF4,serine and arginine rich splicing factor 4
+79,ZNF638,ZNF638,zinc finger protein 638
+80,ESRP1,ESRP1,epithelial splicing regulatory protein 1
+81,HNRNPDL,HNRNPDL,heterogeneous nuclear ribonucleoprotein D like
+82,SRSF9,SRSF9,serine and arginine rich splicing factor 9
+83,RBM25,RBM25,RNA binding motif protein 25
+84,KHDRBS3,KHDRBS3,"KH RNA binding domain containing, signal transduction associated 3"
+85,HNRNPA0,HNRNPA0,heterogeneous nuclear ribonucleoprotein A0
+86,EIF1AX,EIF1AX,eukaryotic translation initiation factor 1A X-linked
+87,CPEB4,CPEB4,cytoplasmic polyadenylation element binding protein 4
+88,CPEB2,CPEB2,cytoplasmic polyadenylation element binding protein 2
+89,CNOT4,CNOT4,CCR4-NOT transcription complex subunit 4
+90,RBM47,RBM47,RNA binding motif protein 47
+91,HNRNPH2,HNRNPH2,heterogeneous nuclear ribonucleoprotein H2
+92,DAZAP1,DAZAP1,DAZ associated protein 1
+93,RBFOX2,RBFOX2,RNA binding fox-1 homolog 2
+94,ZCRB1,ZCRB1,zinc finger CCHC-type and RNA binding motif containing 1
+95,ESRP2,ESRP2,epithelial splicing regulatory protein 2
+96,SNRPA,SNRPA,small nuclear ribonucleoprotein polypeptide A
+97,PPRC1,PPRC1,PPARG related coactivator 1
+98,PTB3,PTBP1,[Alias Match] Name not found
+99,ENOX1,ENOX1,ecto-NOX disulfide-thiol exchanger 1
+100,SRSF8,SRSF8,serine and arginine rich splicing factor 8
+101,KHDRBS1,KHDRBS1,"KH RNA binding domain containing, signal transduction associated 1"
+102,SRSF11,SRSF11,serine and arginine rich splicing factor 11
+103,TRA2A,TRA2A,transformer 2 alpha homolog
+104,TUT1,TUT1,"terminal uridylyl transferase 1, U6 snRNA-specific"
+105,YBX2,YBX2,Y-box binding protein 2
+106,SAMD4A,SAMD4A,sterile alpha motif domain containing 4A
+107,SART3,SART3,"spliceosome associated factor 3, U4/U6 recycling protein"
+108,RBM6,RBM6,RNA binding motif protein 6
+109,RBM45,RBM45,RNA binding motif protein 45
+110,PABPC3,PABPC3,poly(A) binding protein cytoplasmic 3
+111,RBMS3,RBMS3,RNA binding motif single stranded interacting protein 3
+112,RBM8A,RBM8A,RNA binding motif protein 8A
+113,NUPL2,NUP42,[Alias Match] Name not found
+114,PCBP3,PCBP3,poly(rC) binding protein 3
+115,RBM46,RBM46,RNA binding motif protein 46
+116,RBMS1,RBMS1,RNA binding motif single stranded interacting protein 1
+117,PCBP4,PCBP4,poly(rC) binding protein 4
+118,ZC3H14,ZC3H14,zinc finger CCCH-type containing 14
+119,ZC3H10,ZC3H10,zinc finger CCCH-type containing 10
+120,TRNAU1AP,TRNAU1AP,tRNA selenocysteine 1 associated protein 1
+121,BRUNOL5,CELF5,[Alias Match] Name not found
+122,BRUNOL6,CELF6,[Alias Match] Name not found
+123,ANKHD1,ANKHD1,ankyrin repeat and KH domain containing 1
+124,BRUNOL4,CELF4,[Alias Match] Name not found
+125,PABPN1L,PABPN1L,"PABPN1 like, cytoplasmic"
+126,ZNF326,ZNF326,zinc finger protein 326
+127,PABPC5,PABPC5,poly(A) binding protein cytoplasmic 5
+128,HNRPLL,HNRNPLL-AS1,[Alias Match] Name not found
+129,RBM4B,RBM4B,RNA binding motif protein 4B
+130,DAZ3,DAZ3,deleted in azoospermia 3
+131,RBM22,RBM22,RNA binding motif protein 22
+132,RBM23,RBM23,RNA binding motif protein 23
+133,RBM28,RBM28,RNA binding motif protein 28
+134,KHDRBS2,KHDRBS2,"KH RNA binding domain containing, signal transduction associated 2"
+135,RBM41,RBM41,RNA binding motif protein 41
+136,RBM42,RBM42,RNA binding motif protein 42
+137,HNRNPA1L2,HNRNPA1L2,heterogeneous nuclear ribonucleoprotein A1 like 2
+138,HNRNPCL1,HNRNPCL1,heterogeneous nuclear ribonucleoprotein C like 1
+139,RBMS2,RBMS2,RNA binding motif single stranded interacting protein 2
+140,A1CF,A1CF,APOBEC1 complementation factor

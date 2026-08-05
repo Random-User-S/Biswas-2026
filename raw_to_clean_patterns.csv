@@ -1,0 +1,45 @@
+clean_name,regex_pattern
+SARS-CoV-2,\b(sars[-_ ]?cov[-_ ]?2|covid[-_ ]?19|2019[-_ ]?ncov|severe acute respiratory syndrome coronavirus 2)\b
+SARS-CoV,\b(sars[-_ ]?cov|sars coronavirus|severe acute respiratory syndrome coronavirus)\b
+MERS-CoV,\b(mers[-_ ]?cov|middle east respiratory syndrome)\b
+Coronavirus,\b(coronaviruses?|betacoronavirus|alphacoronavirus|hcov\w*|cov)\b
+HIV,\b(hiv|human immunodeficiency virus|x4-tropic virus)\b
+HTLV-1,\b(htlv|human t[-_ ]?(cell|lymphotropic) leukemia virus)\b
+EBV,\b(ebv|epstein[-_ ]?barr|hhv[-_ ]?4)\b
+HSV,\b(hsv|herpes simplex|hhv[-_ ]?[12])\b
+KSHV,\b(kshv|kaposi.*herpesvirus|hhv[-_ ]?8)\b
+HCMV,\b(hcmv|cmv|human cytomegalovirus|hhv[-_ ]?5)\b
+VZV,\b(vzv|varicella[-_ ]?zoster|chickenpox)\b
+HCV,\b(hcv|hepatitis c)\b
+HBV,\b(hbv|hepatitis b|hbx)\b
+HDV,\b(hdv|hepatitis d|hepatitis delta)\b
+HEV,\b(hev|hepatitis e)\b
+Dengue,\b(dengue|denv\d*)\b
+Zika,\b(zika|zikv)\b
+WNV,\b(west nile|wnv)\b
+JEV,\b(japanese encephalitis|jev)\b
+Flavivirus (generic),\b(flaviviruses?|yellow fever|yfv|tbev)\b
+Influenza A,\b(iav|influenza a|h[1-9]n[1-9]|pr8|avian influenza|flu virus)\b
+Influenza B,\b(ibv|influenza b)\b
+HPV,\b(hpv\d*|human papillomavirus|papillomavirus)\b
+Ebola,\b(ebola|ebov)\b
+CHIKV,\b(chikungunya|chikv)\b
+RSV,\b(rsv|respiratory syncytial)\b
+Poliovirus,\b(poliovirus|polio virus|pv[123])\b
+Enterovirus,\b(enterovirus|ev[-_ ]?[a-z]?\d*|coxsackievirus|rhinovirus|encephalomyocarditis)\b
+Sindbis,\b(sindbis|sinv)\b
+Alphavirus (generic),\b(alphaviruses?|equine encephalitis|eeev|veev)\b
+Rubella,\b(rubella)\b
+Norovirus,\b(norovirus)\b
+Rotavirus,\b(rotavirus)\b
+Reovirus,\b(reovirus)\b
+Measles,\b(measles)\b
+Rabies,\b(rabies|rabv)\b
+Polyomavirus,\b(jc virus|jcv|mcpyv|polyomavirus)\b
+AAV,\b(aav\d*|adeno[-_ ]?associated)\b
+Adenovirus,\b(adenoviruses?|adenoviral|ad[235])\b
+VSV,\b(vsv|vesicular stomatitis)\b
+Vaccinia,\b(vaccinia|mva|poxvirus)\b
+Monkeypox/Pox,\b(mpox|cowpox|orf virus)\b
+Hantavirus,\b(hantaan|tula|orthohantavirus|hantavirus)\b
+Lassa/Arena,\b(arenavirus|junin|tacaribe|lassa|lcmv)\b
