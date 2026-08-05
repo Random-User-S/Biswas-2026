@@ -28,10 +28,9 @@ HDA
 IGI             
 """
 
-# However, the other codes were excluded IEA and AES code entries were not allowed
+# However, the other codes were excluded
 allowed_evidence_codes = [
     "IDA",
-    "IMP",
     "IGI",
     "HDA",
     "ISS",

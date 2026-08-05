@@ -1,6 +1,7 @@
-matplotlib
-numpy
-openpyxl
-pandas
-requests
-seaborn
+numpy>=2.4
+pandas>=3.0
+matplotlib>=3.11
+scipy>=1.17
+seaborn>=0.13
+requests>=2.34
+openpyxl>=3.1

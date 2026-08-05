@@ -6,6 +6,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
+import scipy
+
 # Load data
 df = pd.read_csv('rbp_family_matrix.csv', index_col=0)
 
@@ -64,8 +66,7 @@ clustered_output_matrix = log_matrix.T.iloc[reordered_row_indices, reordered_col
 
 
 
-log_matrix.T.to_csv('rbp_family_log_transformed_filtered.csv')
-clustered_output_matrix.to_csv('rbp_family_matrix_CLUSTERED_ORDER_filtered.csv')
+
 
 
 

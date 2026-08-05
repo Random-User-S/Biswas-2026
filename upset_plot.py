@@ -50,8 +50,15 @@ left_set_bar_color = "#2F6FAF"
 df_lit = pd.read_excel(excel_path)
 df_func = pd.read_csv(csv_func_path)
 
+
+lit_rbp_col = "Query_RBP" if "Query_RBP" in df_lit.columns else "RBP"
 func_rbp_col = "RBP" if "RBP" in df_func.columns else "RBP_Symbol"
-df_merged = pd.merge(df_lit, df_func, left_on="RBP", right_on=func_rbp_col, how="inner")
+
+# Merge datasets
+df_merged = pd.merge(df_lit, df_func, left_on=lit_rbp_col, right_on=func_rbp_col, how="inner")
+
+# Standardize RBP column name to prevent KeyError in downstream grouping
+df_merged['RBP'] = df_merged[lit_rbp_col]
 
 # Convert indicators to binary integers
 df_bin_virus = (df_merged[virus_families] > 0).astype(int)
@@ -59,7 +66,9 @@ df_bin_func = df_merged[func_classes].isin(['+', '✓', 1, True]).astype(int)
 
 df_merged['Num_Active_Viruses'] = df_bin_virus.sum(axis=1)
 df_merged['Num_Func_Classes'] = df_bin_func.sum(axis=1)
-df_merged['Total_Papers'] = df_merged['Total Papers (All Families)']
+
+tot_papers_col = "Total_Papers_All_Families" if "Total_Papers_All_Families" in df_merged.columns else "Total Papers (All Families)"
+df_merged['Total_Papers'] = df_merged[tot_papers_col]
 
 # Filter virus families (keep families with at least 5 RBPs; arbitrary value)
 set_sizes_series = df_bin_virus.sum(axis=0).sort_values(ascending=False)

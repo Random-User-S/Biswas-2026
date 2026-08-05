@@ -20,8 +20,7 @@ base_pubtator = "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publication
 
 
 rbp_df = pd.read_csv("rbp_list.csv")
-rbps = rbp_df.loc[rbp_df["Species"] == "human", "RBP_Symbol"].dropna().tolist()
-
+rbps = rbp_df["RBP_Symbol"].dropna().tolist()
 
 # For caching logic
 taxid_cache = {}
@@ -35,16 +34,20 @@ def is_virus(name, tax_id):
 
     tokens = set(name_lower.replace("-", " ").split())
     if any(kw in name_lower for kw in virus_terms) or any(
-        t in virus_terms for t in tokens
+            t in virus_terms for t in tokens
     ):
         return True
 
-# If tax_id is ok and in cache, then get it from cache. Otherwise query NCBI. 
+    # If tax_id is ok and in cache, then get it from cache. Otherwise query NCBI.
     if tax_id and tax_id.isdigit():
         if tax_id not in taxid_cache:
+            base_esummary = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
             params = {"db": "taxonomy", "id": tax_id, "retmode": "json"}
-            r = requests.get(base_efetch, params=params, timeout=10)
-            lineage = r.json().get("result", {}).get(tax_id, {}).get("lineage", "")
+            r = requests.get(base_esummary, params=params, timeout=10)
+
+            res = r.json().get("result")
+            lineage = res.get(tax_id, {}).get("lineage", "") if isinstance(res, dict) else ""
+
             taxid_cache[tax_id] = "Viruses" in lineage
             time.sleep(0.5)
         return taxid_cache[tax_id]
@@ -88,13 +91,13 @@ def get_virus_mentions(pmids):
         )
         if r.status_code != 200:
             continue
-"""
-Json structure:
-doc (Publication)
-  └── passages (e.g., Passage 0 = Title, Passage 1 = Abstract)
-        └── annotations (Tagged entities: Genes, Species, etc.)
-Collectively append to the list as "pmid": pmid, "name": name, "tax_id": tax_id
-"""
+        """
+        Json structure:
+        doc (Publication)
+          └── passages (e.g., Passage 0 = Title, Passage 1 = Abstract)
+                └── annotations (Tagged entities: Genes, Species, etc.)
+        Collectively append to the list as "pmid": pmid, "name": name, "tax_id": tax_id
+        """
         data = r.json()
         docs = data if isinstance(data, list) else data.get("PubTator3", [])
         for doc in docs:
@@ -140,6 +143,7 @@ df = (
     .sort_values(["RBP", "Virus"])
     .reset_index(drop=True)
 )
+print("Output rbp-virus associations saved to rbp_virus_associations.csv")
 df.to_csv("rbp_virus_associations.csv", index=False)
 
 # Output virus summary
@@ -153,6 +157,7 @@ summary = (
     .sort_values("Total_Papers", ascending=False)
     .reset_index()
 )
+print("Output virus summary saved to virus_summary.csv")
 summary.to_csv("virus_summary.csv", index=False)
 
 # Output RBP-virus association matrix
@@ -163,4 +168,5 @@ matrix = df.pivot_table(
     aggfunc="nunique",
     fill_value=0,
 )
+print("Output RBP-virus association matrix saved to rbp_virus_matrix.csv")
 matrix.to_csv("rbp_virus_matrix.csv")
